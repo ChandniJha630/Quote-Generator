@@ -1,0 +1,66 @@
+.box{
+    display:block;
+    background-image:url('candle-1646765_960_720.jpg');
+    opacity: 0.8; 
+    text-align:center ;
+     height:500px;
+   padding:200px;
+   
+   
+}
+#btn{
+   background-color: rgba(6, 0, 0, 0.016);
+    height:50px;
+    width:50%;
+    font-size: large;
+    color:rgb(141, 137, 137);
+    border-radius: 16px;;
+    
+}
+#btn:hover{
+    background-image:linear-gradient(rgb(24, 23, 23),rgb(148, 146, 142),rgb(203, 203, 194),rgb(252, 251, 251));
+    transform: scale(1.2);
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+}
+.q{
+    color:aliceblue;
+    font-size:24px;
+}
+#person{
+    color:rgb(246, 246, 201);
+    font-size:32px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1{
+    color:rgb(191, 198, 204);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media (max-width:600px ){
+    .box{
+        display:block;
+        background-image:url('candle-1646765_960_720.jpg');
+        opacity: 0.8; 
+        text-align:center ;
+         height:500px;
+       padding:20px;
+       
+       
+    }
+    #btn{
+        font-size: 14px;
+        height: 30px;
+        width:40%;
+        border-radius: 6px;
+    }
+    .q{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #person{
+        font-size:16px;
+    }
+}
